@@ -1,0 +1,17 @@
+{
+  "name": "parallax-site",
+  "version": "1.0.0",
+  "description": "Simple parallax site using html and css",
+  "author": "Muhammad Aditia Firmansyah",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "colors": "^1.1.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "normalize.css": "^7.0.0"
+  }
+}

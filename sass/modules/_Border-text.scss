@@ -1,0 +1,14 @@
+.Border-text {
+  background-color: #111;
+  color: #f5f5f5;
+  padding: 20px;
+  display: block;
+
+  @include atSmall {
+    display: inline;
+  }
+
+  &--trans {
+    background-color: transparent;
+  }
+}

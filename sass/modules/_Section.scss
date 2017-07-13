@@ -1,0 +1,18 @@
+.Section {
+  padding: 15px 20px;
+
+  @include atMedium {
+    text-align: center;
+    padding: 50px 80px;
+  }
+
+  &--light {
+    background-color: #f4f4f4;
+    color: #666;
+  }
+
+  &--dark {
+    background-color: #282e34;
+    color: #ddd;
+  }
+}

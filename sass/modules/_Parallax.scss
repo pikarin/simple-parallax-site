@@ -1,0 +1,43 @@
+.Parallax {
+  position: relative;
+  opacity: .7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+
+  @include atSmall {
+    background-attachment: fixed;
+  }
+
+  &--img1 {
+    background-image: url('../images/img1.jpg');
+    min-height: 100%;
+  }
+
+  &--img2 {
+    background-image: url('../images/img2.jpg');
+    min-height: 400px;
+  }
+
+  &--img3 {
+    background-image: url('../images/img3.jpeg');
+    min-height: 400px;
+  }
+
+  &__text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .4rem;
+
+    @include atMedium {
+      font-size: 1.6875rem;
+      letter-spacing: .5rem;
+    }
+  }
+}
